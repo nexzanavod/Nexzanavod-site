@@ -44,10 +44,13 @@ const Timeline = () => {
 
   return (
     <Section id="about">
+      <br />
+      <br/>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+      I am Navod Pasindu Amarakoon, an undergraduate at Plymouth University, UK. I am a young energetic, and talented individual who seeks a position in software engineering, where I could utilize my skills and experiences gained through relevant education and projects. I have strong technical skills and interpersonal skills. I have good leadership skills and the ability to work in a team effectively.
       </SectionText>
+      <br />
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
@@ -113,7 +116,9 @@ const Timeline = () => {
         })}
       </CarouselButtons>
       <SectionDivider />
+      <br/>
     </Section>
+ 
   );
 };
 

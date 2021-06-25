@@ -17,3 +17,12 @@ export const LeftSection = styled.div`
     margin: 0 auto;
   }
 `;
+
+export const Div = styled.div`
+border: none;
+border-radius: 50px;
+color: #fff;
+font-size: 24px;
+font-weight: 600;
+font-family: cursive;
+`;
