@@ -23,6 +23,5 @@ border: none;
 border-radius: 50px;
 color: #fff;
 font-size: 24px;
-font-weight: 600;
-font-family: cursive;
+    font-weight: 600;
 `;
