@@ -1,29 +1,23 @@
-
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection,Div } from './HeroStyles';
-
-
+import {
+  Section,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import Button from "../../styles/GlobalComponents/Button";
+import { LeftSection, Div } from "./HeroStyles";
 
 const values = ["useDencrypt", "Customizable", "React Hook", "Text Effect"];
 
-
 const Hero = (props) => (
-
-  
-  
   <>
-
-
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-         
-          Hello, <br />
+          Hello! <br />
           I'm Navod Amarakoon
         </SectionTitle>
         <SectionText>
-        I'm full-stack web developer & wellcome to my Portfolios.
+          I'm a Full-Stack Web Developer & Wellcome to my portfolio.
         </SectionText>
         <br />
         <br />
