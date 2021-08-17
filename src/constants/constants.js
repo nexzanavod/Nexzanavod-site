@@ -15,8 +15,8 @@ export const projects = [
       "We have developed an online ordering system for UK customer. Alondra Hend Band is the name of the company. Alondra is a headband manufacturer company in the United Kingdom. Features:- User Friendly Online Ordering ,Online Tracking,Admin Panel",
     image: "/images/id-1.jpg",
     tags: ["JAVA", "React", "CommerceJs", "MaterialUI", "StripeJs"],
-    source: "https://github.com/nexzanavod/Alondra",
-    visit: "https://Alondra.com",
+    source: "https://www.alondraheadbands.ml/",
+    visit: "https://github.com/nexzanavod/Alondra",
     id: 1,
   },
   {
